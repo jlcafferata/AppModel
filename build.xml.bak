@@ -20,7 +20,7 @@
 		<mkdir dir="${build.dir}"/>
 		<mkdir dir="${classesTomcat.dir}"/>
 		<mkdir dir="${tomcat.dir}/db"/>
-		<javac destdir="${build.dir}" source="1.7" target="1.7" >
+		<javac destdir="${build.dir}" source="1.6" target="1.6" >
 		<!--javac destdir="${build.dir}" source="1.6" target="1.6" -->
 			<src path="${src.dir}" />
 			<exclude name="**/.tmp/**"/>
